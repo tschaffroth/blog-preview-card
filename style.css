@@ -1,0 +1,137 @@
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Figtree", sans-serif;
+  background-color: #f4d04e;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1.2rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 2.4rem;
+}
+
+/* COMPONENT STYLES */
+
+.blog-preview-card {
+  max-width: 38.4rem;
+  border: 1px solid #111;
+  border-radius: 12px;
+  box-shadow: 8px 8px 0 0 #000;
+  padding: 2.4rem;
+
+  background-color: #fff;
+}
+
+.article-illustration {
+  height: 20rem;
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+.article-tag {
+  display: inline-block;
+  background-color: #f4d04e;
+  color: #111;
+  padding: 0.4rem 1.2rem;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+
+  border-radius: 5px;
+}
+
+.article-release-date {
+  display: block;
+  color: #111;
+
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.article-heading:link,
+.article-heading:visited {
+  color: #111;
+  display: inline-block;
+
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Smooth transition to yellow color when hovered instead of jumping from black to yellow */
+  transition: all 0.3s;
+}
+
+.article-heading:hover,
+.article-heading:active {
+  color: #f4d04e;
+}
+
+.article-summary {
+  color: #6b6b6b;
+
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.author-img {
+  width: 3.2rem;
+  height: 3.2rem;
+
+  margin-right: 1.2rem;
+}
+
+.author-name {
+  color: #111;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* 
+Media query to ensure some margin to the left and right of the card on small screens like in the 
+Figma design and screenshot for mobile devices. Otherwise card would fill the entire screen width.
+
+1rem = 16px in media queries 
+SMALL SCREENS - 464px
+*/
+@media (max-width: 29rem) {
+  .blog-preview-card {
+    margin: 0 2.4rem;
+  }
+}
