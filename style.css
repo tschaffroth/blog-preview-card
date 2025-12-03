@@ -30,6 +30,36 @@ body {
   margin-bottom: 2.4rem;
 }
 
+/* Figma 'Text Preset 3' */
+.figtree-small {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 3 (Bold)' */
+.figtree-small-bold {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 2' */
+.figtree-medium {
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 1' */
+.figtree-extra-bold {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
 /* COMPONENT STYLES */
 
 .blog-preview-card {
@@ -55,32 +85,18 @@ body {
   color: #111;
   padding: 0.4rem 1.2rem;
 
-  font-size: 1.4rem;
-  font-weight: bold;
-  line-height: 150%;
-  letter-spacing: 0px;
-
   border-radius: 5px;
 }
 
 .article-release-date {
   display: block;
   color: #111;
-
-  font-size: 1.4rem;
-  line-height: 150%;
-  letter-spacing: 0px;
 }
 
 .article-heading:link,
 .article-heading:visited {
   color: #111;
   display: inline-block;
-
-  font-size: 2.4rem;
-  font-weight: bold;
-  line-height: 150%;
-  letter-spacing: 0px;
 
   text-decoration: none;
   cursor: pointer;
@@ -96,10 +112,6 @@ body {
 
 .article-summary {
   color: #6b6b6b;
-
-  font-size: 1.6rem;
-  line-height: 150%;
-  letter-spacing: 0px;
 }
 
 .author-container {
@@ -116,11 +128,6 @@ body {
 
 .author-name {
   color: #111;
-
-  font-size: 1.4rem;
-  font-weight: bold;
-  line-height: 150%;
-  letter-spacing: 0px;
 }
 
 /* 

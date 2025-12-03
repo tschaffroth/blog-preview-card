@@ -60,6 +60,36 @@ Furthermore i practiced to outsource recurring CSS properties with the same valu
 .margin-bottom-md {
   margin-bottom: 2.4rem;
 }
+
+/* Figma 'Text Preset 3' */
+.figtree-small {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 3 (Bold)' */
+.figtree-small-bold {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 2' */
+.figtree-medium {
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Figma 'Text Preset 1' */
+.figtree-extra-bold {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
 ```
 
 ### Continued development
